@@ -1,0 +1,184 @@
+/* INSTRUCTIONS
+ *
+ * 1) Keep the text inside .intro-content
+ *    in the same place, but have the background
+ *    extend from one side of the viewport
+ *    to the other, no matter how wide or narrow
+ *    the browser is.
+ *
+ * 2) Limit the maximum width of the text in the
+ *    bottom area.
+ *
+ * You may modify the HTML if needed
+ * (you probably should for this challenge)
+ *
+ */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: large;
+  font-family: Roboto;
+}
+
+img {
+  max-width: 100%;
+}
+/* SECTION ZERO */
+
+header{
+
+  background-color: #136C72;
+  padding: .5em 0;
+
+}
+
+
+.item--class{
+  font-family: 'Courier New', Courier, monospace;
+  display: flex;
+  gap: 35px;
+  padding-left: 0rem;
+
+
+}
+.item__list{
+  list-style: none;
+  font-size:1.1rem;
+
+}
+.item__link{
+  color: white;
+  text-decoration: none;
+
+
+}
+
+.item__link--button{
+  color: #136C72;
+  background-color: white;
+  padding: .2em;
+  border-radius: 10em;
+
+}
+
+/* SECTION ONE */
+
+.background {
+
+  margin: 0 auto;
+  font-family: sans-serif;
+  padding: 50px 0;
+  background-color: rgb(34, 69, 75);
+
+
+
+
+}
+
+.intro {
+  
+  width: 80%;
+  /* background-color: pink; */
+  margin: 0 auto;
+  /* background-color: blueviolet; */
+  max-width: 1000px;
+  display: flex;
+  align-items: center;
+    justify-content: space-between;
+
+
+
+
+}
+
+.intro__text {
+  line-height: 150.19%;
+  color: white;
+  /* background-color: crimson; */
+  width: 70%;
+
+}
+
+
+
+
+button {
+  display: inline-block;
+  padding: .8rem 2.6rem;
+  border-radius: 100px;
+  border: none;
+  background-color: rgb(99, 245, 245);
+  font-weight: bold;
+  color: #2f2f2f;
+  margin-top: .8rem;
+}
+
+button:hover,
+button:focus {
+  opacity: .7;
+}
+
+/* SECTION 2 */
+
+.section {
+  background-color: rgb(219, 219, 219);
+
+  font-family: sans-serif;
+
+  min-width: 600px;
+  padding: 4rem 0
+
+
+}
+
+.row {
+
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+
+}
+
+.container {
+  display: flex;
+  gap: 30px;
+  width: 30%;
+  flex-direction: column;
+  margin: inherit;
+  text-align: center;
+
+  
+
+
+
+
+
+
+
+}
+
+.container2 {
+
+  width: 60%;
+  margin: inherit;
+  line-height: 1.6rem;
+
+
+}
+
+
+.container--accent {
+  background-color: #136C72;
+  color: aliceblue;
+  padding: 0 2rem;
+  
+  justify-items: end;
+}
+
+.container2__color {
+  color: #136C72;
+
+}
